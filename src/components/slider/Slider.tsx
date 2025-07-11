@@ -29,7 +29,7 @@ const Slider: React.FC<SliderProps> = ({ slideData }) => {
   return (
     <>
       <Swiper
-        slidesPerView="auto"
+        slidesPerView = {2.2}
         spaceBetween={20}
         loop={true}
         pagination={{ clickable: true }}

@@ -1,0 +1,37 @@
+.product-container {
+  width: 20.5vw;
+  background: #f4f5f7;
+  position: relative;
+}
+.product-image {
+  height: 21vw;
+  object-fit: cover;
+}
+
+.meta-data-color-primery {
+  color: #3a3a3a;
+}
+.meta-data-color-secondary {
+  color: #b0b0b0;
+}
+
+.product-overlay {
+  background: #3a3a3ac9;
+  width: 20.5vw;
+  height: 30.5vw;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.product-container:hover + .product-overlay,
+.product-container:hover .product-overlay {
+  opacity: 1;
+}
+
+.add-to-cart-btn {
+  background-color: #fff;
+  color: var(--btn-color);
+  border: 0;
+}

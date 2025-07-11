@@ -1,0 +1,9 @@
+.product-card-container {
+  width: 88vw;
+  margin: auto;
+}
+.show-more-btn {
+  color: var(--btn-color);
+  border: 0.1vw solid var(--btn-color);
+  background: #fff;
+}

@@ -1,0 +1,17 @@
+.catelog-container {
+  color: var(--primary-color);
+}
+
+.catelog-text {
+  color: #666666;
+}
+
+.catelog-image {
+  width: 26vw;
+  height: 33vw;
+  object-fit: cover;
+}
+
+.catelog-items {
+  gap: 1.5vw; 
+}

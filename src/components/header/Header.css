@@ -1,0 +1,38 @@
+header {
+  height: 6vw;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background: #fff;
+
+  .header-container {
+    width: 90vw;
+    margin-left: 3vw;
+  }
+}
+.header-container .site-logo-container {
+  display: flex;
+  align-items: center;
+
+  .site-logo {
+    width: 13vw;
+  }
+}
+
+.header-container .icons-container {
+  gap: 2.5vw;
+
+  img {
+    width: 1.8vw;
+  }
+}
+
+.header-container .navlinks {
+  gap: 3.5vw;
+
+  .nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}

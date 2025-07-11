@@ -1,0 +1,465 @@
+/* ===============================
+   FLEX & ALIGNMENT
+================================= */
+.flex {
+  display: flex;
+}
+
+.col-30 {
+  width: 35%;
+}
+.col-70 {
+  width: 65%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-60 {
+  width: 60%;
+}
+.col-50 {
+  width: 50%;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* ===============================
+   WIDTH / HEIGHT
+================================= */
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* ===============================
+   SPACING (VW based for your design)
+================================= */
+/* Margin */
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 1vw;
+}
+.mt-1 {
+  margin-top: 1vw;
+}
+.mt-2 {
+  margin-top: 2vw;
+}
+.mb-1 {
+  margin-bottom: 1vw;
+}
+.ml-1 {
+  margin-left: 1vw;
+}
+.mr-1 {
+  margin-right: 1vw;
+}
+.mx-1 {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.my-1 {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.m-2 {
+  margin: 2vw;
+}
+.mt-2 {
+  margin-top: 2vw;
+}
+.mt-2 {
+  margin-top: 2vw;
+}
+.mb-2 {
+  margin-bottom: 2vw;
+}
+.ml-2 {
+  margin-left: 2vw;
+}
+.mr-2 {
+  margin-right: 2vw;
+}
+.mx-2 {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.my-2 {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.m-3 {
+  margin: 3vw;
+}
+.mt-3 {
+  margin-top: 3vw;
+}
+.mt-3 {
+  margin-top: 3vw;
+}
+.mb-3 {
+  margin-bottom: 3vw;
+}
+.ml-3 {
+  margin-left: 3vw;
+}
+.mr-3 {
+  margin-right: 3vw;
+}
+.mx-3 {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.my-3 {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+/* Padding */
+.p-0 {
+  padding: 0;
+}
+
+.p-05 {
+  padding: 0.5vw;
+}
+.pt-05 {
+  padding-top: 0.5vw;
+}
+.pb-05 {
+  padding-bottom: 0.5vw;
+}
+.pl-05 {
+  padding-left: 0.5vw;
+}
+.pr-05 {
+  padding-right: 0.5vw;
+}
+.p-1 {
+  padding: 1vw;
+}
+.pt-1 {
+  padding-top: 1vw;
+}
+.pb-1 {
+  padding-bottom: 1vw;
+}
+.pl-1 {
+  padding-left: 1vw;
+}
+.pr-1 {
+  padding-right: 1vw;
+}
+.pt-2 {
+  padding-top: 2vw;
+}
+.pb-2 {
+  padding-bottom: 2vw;
+}
+.pl-2 {
+  padding-left: 2vw;
+}
+.pr-2 {
+  padding-right: 2vw;
+}
+.pt-3 {
+  padding-top: 3vw;
+}
+.pb-3 {
+  padding-bottom: 3vw;
+}
+.pl-3 {
+  padding-left: 3vw;
+}
+.pr-3 {
+  padding-right: 3vw;
+}
+
+.pl-7 {
+  padding-left: 7vw;
+}
+.px-1 {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.px-2 {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.px-3 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.px-4 {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+.px-5 {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.py-1 {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+.py-2 {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+.py-3 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+.py-4 {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.py-5 {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+/* Gap */
+
+.gap-05 {
+  gap: 0.5vw;
+}
+
+.gap-1 {
+  gap: 1vw;
+}
+.gap-1-5 {
+  gap: 1.5vw;
+}
+.gap-2 {
+  gap: 2vw;
+}
+.gap-3 {
+  gap: 3vw;
+}
+
+/* ===============================
+    Font Weight
+================================= */
+
+.font-weight-100 {
+  font-weight: 100;
+}
+.font-weight-200 {
+  font-weight: 200;
+}
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+
+/* ===============================
+   TEXT
+================================= */
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.fs-xs {
+  font-size: 0.878vw; /* 12*/
+}
+.fs-sm {
+  font-size: 1.025vw; /* 14*/
+}
+.fs-base {
+  font-size: 1.171vw; /* 16*/
+}
+.fs-md {
+  font-size: 1.318vw; /* 18*/
+}
+.fs-lg {
+  font-size: 1.464vw; /* 20*/
+}
+.fs-xl {
+  font-size: 1.757vw; /* 24*/
+}
+.fs-2xl {
+  font-size: 2.196vw; /* 30*/
+}
+.fs-3xl {
+  font-size: 2.635vw; /* 36*/
+}
+.fs-40 {
+  font-size: 2.8vw;
+}
+.fs-4xl {
+  font-size: 3.514vw; /* 48*/
+}
+.fs-5xl {
+  font-size: 4.392vw; /* 69*/
+}
+.fs-6xl {
+  font-size: 5.271vw; /* 72*/
+}
+
+/* ===============================
+   IMAGE
+================================= */
+.img-block {
+  display: block;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===============================
+    Letter Spacing
+================================= */
+
+.letter-spacing-1 {
+  letter-spacing: 0.07vw;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 0.15vw;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 0.2vw;
+}
+
+/* ===============================
+   LINE HEIGHT UTILITIES
+================================= */
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-1-2 {
+  line-height: 1.2;
+}
+
+.lh-1-4 {
+  line-height: 1.4;
+}
+
+.lh-1-5 {
+  line-height: 1.5;
+}
+
+.lh-1-6 {
+  line-height: 1.6;
+}
+
+.lh-1-8 {
+  line-height: 1.8;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+/* ===============================
+   BORDER RADIUS UTILITIES
+================================= */
+
+.br-md {
+  border-radius: 0.7vw;
+}
+
+.br-circle {
+  border-radius: 50%;
+}
+/* ===============================
+   list-style
+================================= */
+
+.line-none {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}

@@ -1,0 +1,36 @@
+footer {
+  border-top: 0.1vw solid #0000002B;
+  padding-top: 3.5vw;
+}
+
+.footer-container {
+  width: 85vw;
+  margin: auto;
+}
+
+.links-container {
+  width: 50vw;
+}
+
+.footer-placeholder {
+  color: #9f9f9f;
+}
+
+.news-input {
+  border: none;
+  border-bottom: 0.1vw solid #000;
+  outline: none;
+  background: transparent;
+}
+
+.footer-btn {
+  border: none;
+  border-bottom: 0.1vw solid #000;
+  background-color: #fff;
+}
+
+.horizontal-line {
+  height: 0.05vw;
+  width: 100%;
+  background: #d9d9d9;
+}
